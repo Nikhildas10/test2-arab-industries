@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+.slide-image{
+    height: 100vh;
+}
+img{
+    height: 100vh;
+}
+.hero-slide {
+    margin-top: 1.5rem;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.slide-image {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider .content {
+  position: relative;
+  z-index: 2;
+}
+.navigation-left{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  z-index: 1;
+  height: 30px;
+}
+.navigation-right{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  z-index: 1;
+  height: 30px;
+}
