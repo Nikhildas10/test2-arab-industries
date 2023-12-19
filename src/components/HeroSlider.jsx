@@ -84,8 +84,13 @@ const HeroSlider = () => {
           </div>
         </div>
       </Swiper>
-    <img src={left} onClick={goPrev} className="navigation-left" alt="" />
-    <img src={right} onClick={goNext} className="navigation-right" alt="" />
+      <img src={left} onClick={goPrev} className="navigation-left" alt="" />
+      <img src={right} onClick={goNext} className="navigation-right" alt="" />
+      <img
+        className="downArrow"
+        src="https://i.postimg.cc/nrGDzKhG/scroll-down-mouse.webp"
+        alt=""
+      />
     </>
   );
 };

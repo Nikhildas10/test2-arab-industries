@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
   return (
     <div>
-      <h1>Image slider</h1>
+      <h1>Image slider with parallax effect</h1>
     </div>
   )
 }
